@@ -5,6 +5,9 @@ const Halmazok = () => {
   return (
     <>
       <TetelNav />
+      <div className="main__content__wrapper">
+        Halmazok
+      </div>
     </>
   )
 }

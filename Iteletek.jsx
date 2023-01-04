@@ -1,8 +1,12 @@
 import React from 'react';
+import TetelNav from './TetelNav';
 
 const Iteletek = () => {
   return (
-    <div>Iteletek</div>
+    <>
+      <TetelNav />
+      Iteletek
+    </>
   )
 }
 
