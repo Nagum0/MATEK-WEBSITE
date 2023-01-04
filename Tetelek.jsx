@@ -6,16 +6,15 @@ const Tetelek = () => {
     <>
       <nav>
         <ul className="tetelek__navbar">
+          <h1 className='title__link tetelek__title'>
+            TÉTELEK
+          </h1>
 
-          <span className='tetelek__title__span'>
+          <Link to="/">
             <button className='primary__btn tetelek__back__btn'>
               <i class="fa-solid fa-arrow-left"></i>
             </button>
-
-            <h1 className='title__link tetelek__title'>
-              TÉTELEK
-            </h1>
-          </span>
+          </Link>
 
           <li className="tetel___list__item">
             <Link to="/halmazok" className='tetel__link'>
